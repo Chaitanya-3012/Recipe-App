@@ -61,7 +61,7 @@ export default function Details({ foodId }) {
       <h3>Recipe Ingredients : </h3>
       <ul>
         {items.map((item) => {
-          return <li key={item.id}>{item.original}</li>;
+          return <li key={item.id} className={styles.list}>{item.original}</li>;
         })}
       </ul>
       <h3>Recipe Instructions : </h3>
