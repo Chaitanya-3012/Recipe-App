@@ -1,0 +1,25 @@
+.inputWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    margin-left: 30vw;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 10px;
+    color: #000000;
+    padding-bottom: 12px;
+}
+
+.searchInput {
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    padding-left: 50px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    text-transform: uppercase;
+}
